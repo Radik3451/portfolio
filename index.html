@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Радик</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Убрали внешние зависимости для ускорения загрузки -->
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Портфолио</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">О себе</a>
+                <a href="#experience" class="nav-link">Опыт</a>
+                <a href="#skills" class="nav-link">Навыки</a>
+                <a href="#education" class="nav-link">Образование</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Привет, я <span class="highlight">Радик</span></h1>
+                    <p class="hero-subtitle">Веб-разработчик и программист</p>
+                    <p class="hero-description">
+                        Создаю современные веб-приложения с использованием передовых технологий. 
+                        Увлечен разработкой пользовательских интерфейсов и изучением новых технологий.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Связаться</a>
+                        <a href="#about" class="btn btn-secondary">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="assets/avatar.svg" alt="Фото профиля" class="profile-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О себе -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">О себе</h2>
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="icon">👤</span>
+                        <div>
+                            <h3>Имя</h3>
+                            <p>Радик</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h3>Город</h3>
+                            <p>Уфад</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🎂</span>
+                        <div>
+                            <h3>Возраст</h3>
+                            <p>23 года</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>radik.valitov.2002@mail.ru</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Я увлеченный веб-разработчик с опытом создания современных веб-приложений. 
+                        Специализируюсь на бэкенд разработке, но также имею опыт работы с фронтенд технологиями.
+                    </p>
+                    <p>
+                        Постоянно изучаю новые технологии и фреймворки, чтобы оставаться в курсе последних 
+                        тенденций в веб-разработке. Люблю решать сложные задачи и создавать качественные продукты.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Опыт работы -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Team lead</h3>
+                        <h4>Компания ООО"Командные системы"</h4>
+                        <span class="timeline-date">сентябрь 2025 - настоящее время</span>
+                        <p>
+                            Разработка backend части веб-приложений и мобильного приложения на flutter под ios и android.
+                            Управление командой разработчиков и координация работы с клиентом.
+                            Работа с Flutter, Go, PostgreSQL, Docker и современными инструментами разработки.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer</h3>
+                        <h4>ООО"Марка продаж"</h4>
+                        <span class="timeline-date">апрель 2025 - сентябрь 2025</span>
+                        <p>
+                            Разработка backend части веб-приложения на Go. 
+                            Реализация фронтенд части на React с использованием typescript, zustand и react-tanstack-router.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Специалист тех.поддержки</h3>
+                        <h4>MDA</h4>
+                        <span class="timeline-date">апрель 2024 - декабрь 2024</span>
+                        <p>
+                            Поддержка LMS системы, разарботка интеграций с другими сервисами(AMOCrm, smtp).
+                            Оказание технической поддержки пользователям LMS системы.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Технические навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><span class="icon">💻</span> Языки программирования</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Go</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><span class="icon">🔧</span> Фреймворки и библиотеки</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Zustand</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>fiber</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><span class="icon">🛠️</span> Инструменты и технологии</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Архитектура приложения</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Образование -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Образование</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <span class="icon">🎓</span>
+                    </div>
+                    <div class="education-info">
+                        <h3>Высшее образование. Магистратура</h3>
+                        <h4>Уфимский университет науки и технологий.</h4>
+                        <span class="education-date">2024 - 2026</span>
+                        <p>Институт математики, информатики и робототехники, специальность "Прикладная информатика"</p>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-icon">
+                        <span class="icon">📜</span>
+                    </div>
+                    <div class="education-info">
+                        <h3>Курс профессиональной переподготовки</h3>
+                        <h4>Уфимский университет науки и технологий</h4>
+                        <span class="education-date">2025</span>
+                        <p>Сетевые технологии в интеллектуальных системах управления</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>radik.valitov.2002@mail.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 (999) 123-45-67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">🐙</span>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>https://github.com/Radik3451</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Написать сообщение</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Радик. Все права защищены.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">🐙</a>
+                    <a href="#" class="social-link">💼</a>
+                    <a href="#" class="social-link">📱</a>
+                    <a href="#" class="social-link">🐦</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
